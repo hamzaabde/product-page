@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/tailwind.css" />
+		<link
+			rel="shortcut icon"
+			href="./assets/favicon-32x32.png"
+			type="image/png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Product Page</title>
+	</head>
+	<body>
+		<div class="min-h-screen flex flex-col">
+			<header class="px-[10%] mx-auto w-full max-w-screen-2xl">
+				<div
+					class="relative flex justify-between items-center border-b-[1px] border-black/10"
+				>
+					<img src="./assets/logo.svg" alt="sneakers logo" />
+					<div
+						class="flex items-end self-stretch space-x-8 grow justify-start ml-14"
+					>
+						<div class="flex flex-col justify-end">
+							<a href="#" class="peer text-sm my-10 font-bold text-grayish-blue"
+								>Collections</a
+							>
+							<div
+								class="peer-hover:w-full transition-all rounded bg-orange w-0 h-1 -mb-0.5 self-center"
+							></div>
+						</div>
+						<div class="flex flex-col justify-end">
+							<a href="#" class="peer text-sm my-10 font-bold text-grayish-blue"
+								>Men</a
+							>
+							<div
+								class="peer-hover:w-full transition-all rounded bg-orange w-0 h-1 -mb-0.5 self-center"
+							></div>
+						</div>
+						<div class="flex flex-col justify-end">
+							<a href="#" class="peer text-sm my-10 font-bold text-grayish-blue"
+								>Women</a
+							>
+							<div
+								class="peer-hover:w-full transition-all rounded bg-orange w-0 h-1 -mb-0.5 self-center"
+							></div>
+						</div>
+						<div class="flex flex-col justify-end">
+							<a href="#" class="peer text-sm my-10 font-bold text-grayish-blue"
+								>About</a
+							>
+							<div
+								class="peer-hover:w-full transition-all rounded bg-orange w-0 h-1 -mb-0.5 self-center"
+							></div>
+						</div>
+						<div class="flex flex-col justify-end">
+							<a href="#" class="peer text-sm my-10 font-bold text-grayish-blue"
+								>Contact</a
+							>
+							<div
+								class="peer-hover:w-full transition-all rounded bg-orange w-0 h-1 -mb-0.5 self-center"
+							></div>
+						</div>
+					</div>
+					<div class="flex items-center justify-self-end space-x-12">
+						<div class="relative cursor-pointer">
+							<img src="./assets/icon-cart.svg" alt="" />
+							<div
+								class="bg-orange text-white absolute rounded-full -top-1/2 text-[.7rem] font-bold py-0.5 leading-[.7rem] px-2.5 -right-1/2"
+							>
+								3
+							</div>
+						</div>
+						<div
+							class="w-12 hover:border-orange cursor-pointer border-transparent border-2 rounded-full transition flex items-center justify-center"
+						>
+							<img
+								class="w-full"
+								src="./assets/image-avatar.png"
+								alt="user avatar"
+							/>
+						</div>
+					</div>
+					<div
+						class="bg-white absolute top-full -right-20 max-w-xs rounded-md shadow-cart shadow-black/60 w-full"
+					>
+						<strong class="text-sm px-4 py-4 block">Cart</strong>
+						<hr class="border-black/10" />
+						<div class="flex flex-col min-h-[148px]">
+							<div class="flex grow items-center justify-center">
+								<strong class="text-dark-grayish-blue/80 text-sm"
+									>Your cart is empty.</strong
+								>
+							</div>
+							<!-- <div class="flex flex-col mt-4 mx-4">
+								<div class="flex space-x-4 flex-nowrap items-stretch">
+									<div
+										class="w-10 aspect-square object-cover overflow-hidden rounded-lg"
+									>
+										<img
+											class="w-full"
+											src="./assets/image-product-1-thumbnail.jpg"
+											alt=""
+										/>
+									</div>
+									<div
+										class="text-sm flex grow flex-col self-stretch justify-evenly text-grayish-blue font-bold"
+									>
+										<p class="whitespace-nowrap text-ellipsis overflow-hidden">
+											Fall Limited Edition Sneakers
+										</p>
+										<p>
+											$125.00 x 3
+											<span class="text-very-dark-blue/95">$375.00</span>
+										</p>
+									</div>
+									<div class="w-4 flex justify-center items-center">
+										<img src="./assets/icon-delete.svg" alt="" />
+									</div>
+								</div>
+							</div>
+							<div class="mx-4">
+								<button
+									class="py-4 my-5 w-full text-center rounded-lg font-bold text-sm bg-orange hover:bg-orange/90 transition hover:shadow-inner shadow-orange text-white"
+								>
+									Checkout
+								</button>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<main class="grow h-full flex shrink items-center">
+				<div class="flex flex-col">
+					<div class="border-2 rounded-lg border-orange">
+						<!-- <img
+							class=""
+							src="./assets/image-product-1.jpg"
+							alt="product image 1"
+						/> -->
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>

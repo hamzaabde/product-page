@@ -1,0 +1,13 @@
+{
+  "name": "product-page",
+  "version": "0.0.1",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./style.css -o ./src/tailwind.css --watch",
+    "buid": "echo build"
+  },
+  "keywords": [],
+  "author": "Hamsa Abdirashid",
+  "license": "MIT"
+}
